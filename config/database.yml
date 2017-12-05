@@ -10,6 +10,10 @@ development:
   <<: *default
   database: message-board_development
 
+test:
+  <<: *default
+  database: message-board_test
+
 production:
   <<: *default
   database: message-board_production
