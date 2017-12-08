@@ -14,6 +14,6 @@ Rails.application.routes.draw do
   # # edit: 更新用のフォームページ
   # get 'messages/:id/edit', to: 'messages#edit'
 
-  root to: 'messages#index' # トップページにアクセスしたときのルーティングを MessagesController の index アクションに設定
+  #root to: 'messages#index' # トップページにアクセスしたときのルーティングを MessagesController の index アクションに設定
   resources :messages
 end
